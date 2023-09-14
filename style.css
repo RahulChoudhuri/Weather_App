@@ -102,6 +102,50 @@ body{
 }
 
 
+@media(max-width:453px) {
+    .card {
+        padding: 40px 35px;
+    }
+
+    .search {
+        flex-direction: column;
+    }
+
+    .search input {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .search-icon:hover {
+        color: #fff;
+    }
+
+    .search button {
+        margin-top: 5px;
+        border-radius: 10px;
+        width: 50px;
+        height: 50px;
+        background-color: rgba(173, 243, 255, 0.5);
+    }
+
+    .search img {
+        width: 14px;
+    }
+
+    .weather img {
+        margin-top: -5px;
+    }
+}
+
+@media(max-width:365px) {
+    .details {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+}
+
+
 
 
 
